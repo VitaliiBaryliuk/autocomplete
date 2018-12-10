@@ -21,14 +21,14 @@
   border-radius: 8px;
 
   &__container {
-    height: 50px;
+    min-height: 50px;
     width: 80%;
-    margin-bottom: 10px;
-    padding: 0 5px 0 5px; 
+    padding: 5px; 
     border-radius: 8px;
     background-color: #f1f1f1;
-    display: flex;
     align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
   }
 
   &__chip {
@@ -36,13 +36,14 @@
     background-color: gray;
     border-radius: 8px;
     padding: 5px;
-    margin-right: 5px; 
+    margin: 5px; 
     color: white;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
   }
 
   &__remove-chip{
+    position: relative;
+    top: 5px;
     width: 20px;
     height: 20px;
     background-size: contain;
